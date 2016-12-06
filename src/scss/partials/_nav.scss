@@ -1,0 +1,33 @@
+nav {
+  font-family: 'bourbonw00-regularregular';
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-size: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.7);
+  }
+  ul{
+    display: flex;
+    justify-content: space-around;
+    li {
+      margin: 0px 2% 0px 2%;
+      a:hover {
+        color: rgb(189, 52, 42);
+      }
+      a.active{
+        line-height: 2;
+        color: rgb(150, 144, 90);
+      }
+      .nav-link {
+        color: #000;
+    }
+  }
+}
+
+
+.icon-bar {
+  width: 30%;
+  font-size: 1rem;
+  background-color: rgba(255, 255, 255, 0)
+}

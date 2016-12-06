@@ -1,0 +1,147 @@
+@font-face {
+    font-family: 'bourbonw00-regularregular';
+    src: url('../fonts/bourban-regular/bourbon_w00_regular-webfont.woff2') format('woff2'),
+         url('../fonts/bourban-regular/bourbon_w00_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+div.jumbotron.parallax {
+  border-radius: 0px;
+  text-align: center;
+  width: 100%;
+  color: #fff;
+  font-family: 'bourbonw00-regularregular';
+  background: linear-gradient( rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2) ), url('../img/header1.jpg');
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 700px;
+  margin: 0px;
+  display: inline-flex;
+  align-items: center;
+}
+
+
+div.jumbotron.parallax.beer {
+  background: linear-gradient( rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5) ), url('../img/beer.png');
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 700px;
+}
+
+div.jumbotron.parallax.about {
+  background: linear-gradient( rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5) ), url('../img/brewery.jpg');
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 700px;
+}
+
+div.jumbotron.parallax.contact {
+  background: linear-gradient( rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5) ), url('../img/contact.jpg');
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 700px;
+}
+
+
+
+h1.custom {
+  font-family: 'bourbonw00-regularregular';
+  margin: 5% 0px 10% 0px;
+  border-radius: 0px;
+  text-align: center;
+  line-height: 100%;
+  font-size: 2.8rem;
+}
+
+div.row {
+  margin: 0px;
+  padding: 0px;
+
+
+h2 {
+  margin-top: 10%;
+}
+.col-lg-12 {
+  margin-bottom: 15%;
+
+}
+}
+
+.icon-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+
+
+// BEERS
+.content-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0px 4%;
+}
+
+.col-lg-3 {
+  display: inline-flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 1rem;
+
+  h2 {
+    align-self: center;
+    // text-align: center;
+    margin: 6%;
+    font-size: 1.3rem;
+  }
+  img {
+    align-self: center;
+  }
+  p{
+    font-size: .8rem;
+  }
+}
+.container a {
+  justify-content: center;
+}
+
+.main-logo {
+ background-color: rgba(79, 79, 79, 0.8);
+ padding: 2%;
+ align-self: center;
+ height: 300px;
+
+}
+// ABOUT
+h1 {
+  font-family: 'bourbonw00-regularregular';
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+// MAPS
+
+.content-map {
+  height: contain;
+  min-height: 250px;
+  // width: 100%;
+}
+
+div#map {
+  height: 100%;
+
+     }
+// HOURS
+div.hours {
+  display: flex;
+  flex-direction: row;
+
+}
